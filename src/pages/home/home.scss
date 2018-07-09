@@ -1,3 +1,96 @@
 page-home {
 
+.label{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    
+    
+    
+    
+    
+}
+  
+
+
+.btn{
+    width: 50%;
+    margin-right: 25%;
+    margin-bottom: 15%;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(80, 25, 25);
+}
+
+
+
+
+.style{
+         padding: 5px;
+         border-radius: 50px;
+         background-color: rgba(80, 25, 25, 0.644);
+         position: relative;
+         top: 10px;
+         width: 50%;
+         margin-right: 25%;
+         color: white;
+        
+         
+
+    
+    
+}
+
+h1{
+    padding-left: 5%;
+    color: rgb(80, 25, 25);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+    
+}
+
+h2{
+    text-align: center;
+    color: rgb(80, 25, 25);
+    position: relative;
+    padding-right: 45%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+ 
+    
+}
+
+.Awy{
+    color: rgb(80, 25, 25);
+
+}
+
+
+.body{
+    position: relative;
+    top: 40px;
+ 
+}
+
+.img{
+   background-image: url("../../assets/imgs/footballlll.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+  
+ 
+
+}
+
+
+ion-input{
+    height: 10px;
+}
+
+img{
+    margin-right: 50%;
+}
+
+
 }

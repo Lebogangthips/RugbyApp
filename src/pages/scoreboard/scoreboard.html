@@ -1,0 +1,64 @@
+<ion-header>
+
+    <ion-navbar color='light'>
+      <ion-title>Rugby Scoarboard</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+
+  <ion-content class="img">
+
+    
+
+
+<div class="row" style="background-color: rgb(80, 25, 25)"  >
+  <div class="column"  (click)="Check('TeamA')">
+
+    
+
+      <div class="box2">{{TeamA}}</div>
+
+    
+
+<div class="box">
+<h3>{{Home}}</h3>
+
+</div>
+    
+  </div>
+
+  
+  <div class="column"  (click)="Checks('TeamB')">
+
+      <div class="box2">{{TeamB}}</div>
+
+      <div class="box">
+<h3>{{Away}}</h3>
+
+        </div>
+  </div>
+
+
+</div>
+
+<br><br><br><br>
+
+<div class="block">
+
+<button class="btn" ion-button color="secondary" (click)="TBtn()">TRY(5)</button>
+<button class="ud"  ion-button color="secondary" (click)="UTBtn()"><ion-icon name="undo"></ion-icon></button><br>
+
+
+<button class="btn" ion-button color="secondary"   (click)="PBtn()">PENALTY(3)</button>
+<button class="ud"   ion-button color="secondary" (click)="PTBtn()"><ion-icon name="undo"></ion-icon></button><br>
+ 
+<button class="btn" ion-button color="secondary"  (click)="CBtn()">CONVERSION(2)</button>
+<button class="ud"   ion-button color="secondary" (click)="CTBtn()"><ion-icon name="undo"></ion-icon></button><br>
+
+</div>
+
+<div class="rst">
+  <b><button class="bttn" ion-button  (click)="RESET()">RESET</button></b>
+</div>
+
+</ion-content>
